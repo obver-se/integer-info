@@ -7,7 +7,7 @@ Integers can be queried by range or by value and then examined.
 
 ### Input:
 
-``` json
+``` GraphQL
 {
   range(start: 16, end: 20){
     value
@@ -17,7 +17,7 @@ Integers can be queried by range or by value and then examined.
 ```
 ### Output: 
 
-```
+``` json
 {
   "data": {
     "range": [
@@ -56,12 +56,10 @@ Integers can be queried by range or by value and then examined.
 </thead>
 <tbody>
 <tr>
-<td colspan="2" valign="top"><strong>number</strong></td>
+<td colspan="2" align="center" valign="middle"><strong>number</strong></td>
 <td valign="top"><a href="#integer">Integer</a></td>
 <td>
-
 Get information for a single integer.
-
 </td>
 </tr>
 <tr>
@@ -86,7 +84,7 @@ The number to examine.
 </thead>
 <tbody>
 <tr>
-<td colspan="2" valign="top"><strong>range</strong></td>
+<td colspan="2" align="center" valign="middle"><strong>range</strong></td>
 <td valign="top">[<a href="#integer">Integer</a>]</td>
 <td>
 Get a range of integers values
